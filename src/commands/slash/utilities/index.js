@@ -346,7 +346,7 @@ module.exports = {
                     faq14embed,
                     faq15embed,
                     faq16embed,
-                    faq17embed,
+                    //faq17embed,
                   ],
                 });
               }, 5000);

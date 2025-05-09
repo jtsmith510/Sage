@@ -130,7 +130,7 @@ module.exports = {
     let faq2 =
       "**Boundaries**\n\n**[⚠️]** [**OFFICIAL** Boundaries](https://oasisyt.carrd.co/)";
     let faq3 =
-      "**Controls/DPI/Sens**\n\nDPI: 400\nMC Sens: 91\nFOV: 70 (1.8) + Dynamic FOV On\nFOV: 90 (1.21) + Dynamic FOV Off\n\n**__Controls:__**\nDrop Item: C\nMove: WASD\nInventory: E\nOptifine/Lunar Zoom: X\nPerspective Mod: ALT\nSprint: CTRL\nOffhand (1.21): V\nThird Person: Side Mouse Button 2\nHotbar: 1 - 5 are defualt\n- 6: Q\n- 7: F\n- 8: R\n- 9: Side Mouse Button 1\n\n(1.7) View Bobbing: On\n(1.8 & 1.21+) View Bobbing: Off\n\n";
+      "**Controls/DPI/Sens**\n\nDPI: 800\nMC Sens: 53\nFOV: 70 (1.8) + Dynamic FOV On\nFOV: 90 (1.21) + Dynamic FOV Off\n\n**__Controls:__**\nDrop Item: C\nMove: WASD\nInventory: E\nOptifine/Lunar Zoom: X\nPerspective Mod: ALT\nSprint: CTRL\nOffhand (1.21): V\nThird Person: Side Mouse Button 2\nHotbar: 1 - 5 are defualt\n- 6: Q\n- 7: F\n- 8: R\n- 9: Side Mouse Button 1\n\n(1.7) View Bobbing: On\n(1.8 & 1.21+) View Bobbing: Off\n\n";
     let faq4 =
       "**Mouse/Keyboard**\n\nMouse: Logitech G Pro Wireless Superlight\nKeyboard: A custom made keyboard by MinuteTech\n\n";
     let faq5 =

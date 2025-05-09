@@ -14,7 +14,6 @@ module.exports = {
    */
   run: async (bot, oldMember, newMember) => {
     const guild = bot.guilds.cache.get(process.env.GUILD_ID);
-    console.log(guild);
 
     const staffServer = bot.guilds.cache.get(process.env.STAFF_SERVER);
     const logChannel = staffServer.channels.cache.get(process.env.MEMBERS);
@@ -26,8 +25,6 @@ module.exports = {
       type: AuditLogEvent.MemberRoleUpdate,
     });
 
-    console.log(auditLog);
-
     const entry = auditLog.entries.first();
 
     const executor = await guild.members
@@ -37,8 +34,6 @@ module.exports = {
     // const entry = await guild
     //   .fetchAuditLogs({ type: "MemberRoleUpdate" })
     //   .then((audit) => audit.entries.first());
-
-    console.log(entry);
 
     const oldUsername =
       oldMember.nickname || "Original " + "(" + oldMember.user.username + ")";

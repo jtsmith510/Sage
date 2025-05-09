@@ -24,11 +24,14 @@ module.exports = {
       content: `## Hiya!  ⌍${member.user.username}.⌎ ✧ Welcome to The Starfall Islands⚡ ⊹˚𓂃・✧\n✨Select your pronouns at <id:customize> and feel free to introduce yourself in <#903578658986418197>! ✨ 🌊 Make yourself at home :>\n\n**Member** #${guild.memberCount}`,
       allowedMentions: { parse: [] },
     });
-    setTimeout(() => {
-      joinChannel.send({
+
+    joinChannel
+      .send({
         content: `${member.user}`,
+      })
+      .then((msg) => {
+        setTimeout(() => msg.delete(), 2000);
       });
-    }, 3000);
 
     console.log(member);
 

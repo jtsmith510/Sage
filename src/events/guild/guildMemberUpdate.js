@@ -14,6 +14,7 @@ module.exports = {
    */
   run: async (bot, oldMember, newMember) => {
     const guild = bot.guilds.cache.get(process.env.GUILD_ID);
+    console.log(guild);
 
     const staffServer = bot.guilds.cache.get(process.env.STAFF_SERVER);
     const logChannel = staffServer.channels.cache.get(process.env.MEMBERS);
@@ -22,12 +23,22 @@ module.exports = {
 
     const auditLog = await guild.fetchAuditLogs({
       limit: 1,
-      type: AuditLogEvent.RoleUpdate,
+      type: AuditLogEvent.MemberRoleUpdate,
     });
+
+    console.log(auditLog);
 
     const entry = auditLog.entries.first();
 
-    const executor = await bot.members.fetch(entry.executor.id).catch(() => {});
+    const executor = await guild.members
+      .fetch(entry.executor.id)
+      .catch(() => {});
+
+    // const entry = await guild
+    //   .fetchAuditLogs({ type: "MemberRoleUpdate" })
+    //   .then((audit) => audit.entries.first());
+
+    console.log(entry);
 
     const oldUsername =
       oldMember.nickname || "Original " + "(" + oldMember.user.username + ")";
@@ -101,7 +112,8 @@ module.exports = {
               `<@${newMember.user.id}> was removed from the role ` +
                 "``" +
                 role.name +
-                "``"
+                "``" +
+                `by ${executor}`
             );
           } else if (
             oldMember.roles.cache.size - newMember.roles.cache.size !==
@@ -109,7 +121,8 @@ module.exports = {
           ) {
             roleUpdateEmbed.setDescription(
               `<@${newMember.user.id}> was removed from the roles ` +
-                removedRolesString
+                removedRolesString +
+                `by ${executor}`
             );
           }
         }
@@ -122,7 +135,8 @@ module.exports = {
               `<@${newMember.user.id}> has been given the role ` +
                 "``" +
                 role.name +
-                "``"
+                "``" +
+                `by ${executor}`
             );
           } else if (
             newMember.roles.cache.size - oldMember.roles.cache.size !==
@@ -130,7 +144,8 @@ module.exports = {
           ) {
             roleUpdateEmbed.setDescription(
               `<@${newMember.user.id}> has been given the roles ` +
-                addedRolesString
+                addedRolesString +
+                `by ${executor}`
             );
           }
         }

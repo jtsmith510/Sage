@@ -464,6 +464,41 @@ module.exports = {
             )
             .setFooter({ text: config.messageSettings.signature });
 
+          const levelingEmbed = new EmbedBuilder()
+            .setColor(colors.LEVELING)
+            .setTitle("📈 Leveling Roles")
+            .setDescription(
+              "These roles are earned based on your activity via <@1011139072355483693>'s **</rank:1215398887834124360>** command!"
+            )
+            .addFields({
+              name: "Levels & Rewards",
+              value: [
+                "<@&756954432364609636> ▸ Starter Rank (Join Role)",
+                "<@&757759380656750652> ▸ Level 5",
+                "<@&756953620288766074> ▸ Level 10 *(Grants media perms)*",
+                "<@&756953619882049616> ▸ Level 15",
+                "<@&756953619626197032> ▸ Level 20",
+                "<@&756953618896388126> ▸ Level 25 *(Nickname perms)*",
+                "<@&870113342222635049> ▸ Level 30",
+                "<@&870113470488670228> ▸ Level 35",
+                "<@&870113567377092618> ▸ Level 40 *(Exclusive chat perms)*",
+                "<@&903161806690877460> ▸ Level 45",
+                "<@&903162332593664030> ▸ Level 50",
+                "<@&903162402038759454> ▸ Level 55",
+                "<@&1048795955824185414> ▸ Level 60",
+                "<@&1048796299316695080> ▸ Level 65",
+                "<@&1048797646594248755> ▸ Level 70",
+                "<@&1048798284505956372> ▸ Level 75",
+                "<@&1214641008894279811> ▸ Level 80",
+                "<@&1048797870251327558> ▸ Level 85",
+                "<@&1370262921757593652> ▸ Level 90",
+                "<@&1370264946398593024> ▸ Level 95",
+                "<@&1370265264956117094> ▸ Level 100 *(Good luck...)*",
+              ].join("\n"),
+              inline: false,
+            })
+            .setFooter({ text: config.messageSettings.signature });
+
           //   channel
           //     .createWebhook({ name: bot.user.username, avatar: `${avatarURL}` })
           //     .then((webhook) => {
@@ -487,7 +522,7 @@ module.exports = {
           //       }, 4000);
           //     });
           await channel.send({
-            embeds: [staffEmbed, exclusiveEmbed],
+            embeds: [staffEmbed, exclusiveEmbed, levelingEmbed],
             allowedMentions: { parse: ["roles", "users"] },
           });
         }

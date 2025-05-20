@@ -121,7 +121,7 @@ module.exports = {
       })
       .setColor("DarkButNotBlack")
       .setDescription(
-        "If you wish to report a member for breaking one of these rules, please feel free to create a ticket in <#903739112027197441>!\n\nThese rules are not exhaustive, if a staff member tells you not to do something, listen to them. If you want more clarification, or think something is wrong, please open a ticket in <#903739112027197441>.\n\nClick: [Get Roles](https://discord.com/channels/755968485854675065/903524741791506432/903759194941968414) **|** [FAQ](https://discord.com/channels/755968485854675065/903762303026085939) **|** [Chat](https://discord.com/channels/755968485854675065/903516143715778590)"
+        "If you wish to report a member for breaking one of these rules, please feel free to create a ticket in <#903739112027197441>!\n\nThese rules are not exhaustive, if a staff member tells you not to do something, listen to them. If you want more clarification, or think something is wrong, please open a ticket in <#903739112027197441>.\n\nClick: [Role Information](https://discord.com/channels/755968485854675065/903524420826591272/1374532212484997280) **|** [FAQ](https://discord.com/channels/755968485854675065/903762303026085939) **|** [Chat](https://discord.com/channels/755968485854675065/903516143715778590)"
       )
       .setFooter({ text: `${config.messageSettings.signature}` });
 
@@ -263,7 +263,7 @@ module.exports = {
                       })
                       .setColor("DarkButNotBlack")
                       .setDescription(
-                        `Welcome to **Oasis's (Swiftblade's)** Official Discord Server! Please ensure that you follow these simple rules.\n\nPlease keep this server to English & Spanish only.`
+                        `Welcome to **The Starfall Islands!** Please ensure that you follow these simple rules.\n\nPlease keep this server to English & Spanish only.`
                       ),
                   ],
                   allowedMentions: {

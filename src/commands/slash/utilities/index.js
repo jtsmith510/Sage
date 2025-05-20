@@ -521,6 +521,10 @@ module.exports = {
           //         });
           //       }, 4000);
           //     });
+
+          channel.send({
+            files: ["./src/images/OASISroles.jpg"],
+          });
           await channel.send({
             embeds: [staffEmbed, exclusiveEmbed, levelingEmbed],
             allowedMentions: { parse: ["roles", "users"] },

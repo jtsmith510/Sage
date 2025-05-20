@@ -389,7 +389,7 @@ module.exports = {
 
           const staffEmbed = new EmbedBuilder()
             .setColor(colors.STAFF)
-            .setTitle("⌜ Staff Roles ⌝")
+            .setTitle("📋 Staff Roles")
             .addFields(
               {
                 name: " ",
@@ -435,7 +435,7 @@ module.exports = {
 
           const exclusiveEmbed = new EmbedBuilder()
             .setColor(colors.EXCLUSIVE)
-            .setTitle("⌜ Exclusive Roles ⌝")
+            .setTitle("🏆 Exclusive Roles")
             .addFields(
               {
                 name: " ",

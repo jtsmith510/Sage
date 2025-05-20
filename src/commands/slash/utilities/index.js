@@ -452,7 +452,7 @@ module.exports = {
               {
                 name: " ",
                 value:
-                  "<@&756952143776186460> / <@&896080274134286337>\n ▸ Given to creators that meet requirements. For more info, see FAQ #5 in <#903762303026085939>.",
+                  "<@&756952143776186460>\n ▸ Given to creators that meet requirements. For more info, see FAQ #5 in <#903762303026085939>.",
                 inline: true,
               },
               {

@@ -525,10 +525,17 @@ module.exports = {
           channel.send({
             files: ["./src/images/OASISroles.jpg"],
           });
-          await channel.send({
-            embeds: [staffEmbed, exclusiveEmbed, levelingEmbed],
-            allowedMentions: { parse: ["roles", "users"] },
-          });
+          setTimeout(() => {
+            channel.send({
+              embeds: [staffEmbed, exclusiveEmbed, levelingEmbed],
+              allowedMentions: { parse: ["roles", "users"] },
+            });
+          }, 2000);
+          setTimeout(() => {
+            channel.send({
+              content: `*last updated: <t:${Math.round(new Date() / 1000)}:R>*`,
+            });
+          }, 4000);
         }
 
         break;

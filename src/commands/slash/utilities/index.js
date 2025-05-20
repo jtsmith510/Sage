@@ -392,6 +392,7 @@ module.exports = {
             .setTitle("Staff Roles")
             .addFields(
               {
+                name: "",
                 value: "<@&756723869699670016> The one and only 😎",
                 inline: false,
               },

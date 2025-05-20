@@ -389,7 +389,7 @@ module.exports = {
 
           const staffEmbed = new EmbedBuilder()
             .setColor(colors.STAFF)
-            .setTitle("Staff Roles")
+            .setTitle("⌜ Staff Roles ⌝")
             .addFields(
               {
                 name: " ",
@@ -433,6 +433,37 @@ module.exports = {
             )
             .setFooter({ text: `${config.messageSettings.signature}` });
 
+          const exclusiveEmbed = new EmbedBuilder()
+            .setColor(colors.EXCLUSIVE)
+            .setTitle("⌜ Exclusive Roles ⌝")
+            .addFields(
+              {
+                name: " ",
+                value:
+                  "<@&870057943398248478>\n ▸ Oasis's most notable members (mostly from 2019 or earlier). **Do not ask for this role.**",
+                inline: true,
+              },
+              {
+                name: " ",
+                value:
+                  "<@&903745076398805082>\n ▸ For amazing fanart creators 🎨",
+                inline: true,
+              },
+              {
+                name: " ",
+                value:
+                  "<@&869916474448441405>\n ▸ Given to those who Nitro Boost the server 🚀",
+                inline: true,
+              },
+              {
+                name: " ",
+                value:
+                  "<@&1370291289303679088>\n ▸ Given to those on the volunteer team that is behind developing 'ACROSS THE DARKNESS'",
+                inline: true,
+              }
+            )
+            .setFooter({ text: config.messageSettings.signature });
+
           //   channel
           //     .createWebhook({ name: bot.user.username, avatar: `${avatarURL}` })
           //     .then((webhook) => {
@@ -456,7 +487,7 @@ module.exports = {
           //       }, 4000);
           //     });
           await channel.send({
-            embeds: [staffEmbed],
+            embeds: [staffEmbed, exclusiveEmbed],
             allowedMentions: { parse: ["roles", "users"] },
           });
         }

@@ -430,29 +430,31 @@ module.exports = {
             )
             .setFooter({ text: `${config.messageSettings.signature}` });
 
-          channel
-            .createWebhook({ name: bot.user.username, avatar: `${avatarURL}` })
-            .then((webhook) => {
-              webhook.send({
-                files: ["./src/images/OASISroles.jpg"],
-              });
-              setTimeout(() => {
-                webhook.send({
-                  embeds: [staffEmbed],
-                  allowedMentions: {
-                    parse: ["roles", "users"],
-                  },
-                });
-              }, 2000);
-              setTimeout(() => {
-                webhook.send({
-                  content: `*last updated: <t:${Math.round(
-                    new Date() / 1000
-                  )}:R>*`,
-                });
-              }, 4000);
-            });
+          //   channel
+          //     .createWebhook({ name: bot.user.username, avatar: `${avatarURL}` })
+          //     .then((webhook) => {
+          //       webhook.send({
+          //         files: ["./src/images/OASISroles.jpg"],
+          //       });
+          //       setTimeout(() => {
+          //         webhook.send({
+          //           embeds: [staffEmbed],
+          //           allowedMentions: {
+          //             parse: ["roles", "users"],
+          //           },
+          //         });
+          //       }, 2000);
+          //       setTimeout(() => {
+          //         webhook.send({
+          //           content: `*last updated: <t:${Math.round(
+          //             new Date() / 1000
+          //           )}:R>*`,
+          //         });
+          //       }, 4000);
+          //     });
+          channel.send("hi");
         }
+
         break;
       case "support":
         {

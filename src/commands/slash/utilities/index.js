@@ -393,7 +393,7 @@ module.exports = {
             .addFields(
               {
                 name: `<@&756723869699670016>`,
-                value: "The one and only 😎",
+                value: "<@&756723869699670016> The one and only 😎",
                 inline: false,
               },
               {

@@ -380,10 +380,53 @@ module.exports = {
         break;
       case "roles":
         {
-          const embed12 = new EmbedBuilder()
-            .setColor(colors.TRANSPARENT)
-            .setDescription(
-              "**⌜   Staff Roles  ⌝**\n\n<@&756723869699670016> ▸ The one and only <:oasissunglassescool:1060144825090969620>\n<@&825974296663818250> ▸ The manager of the discord\n<@&756950808427364392> ▸ The administrators of the discord\n<@&757838930770001940> ▸ The moderators of the discord who ensure that all server rules are being followed\n<@&756950810578911372> ▸ Members that are being evaluated to become apart of the staff team\n<@&1214414694526222371> ▸ Oasis's custom bot coded by <@274021702411747328>!\n<@&756723889278812221> ▸ Starfall Staff help run The Starfall Islands server! These staff members have different jobs. This includes moderation, quality assurance, server/bot development, member support, and more!\n\n**⌜   Exclusive Roles  ⌝**\n\n<@&870057943398248478> ▸ Oasis's most notable members (usually from 2019 or prior) **Do not ask for this role.**\n<@&899003484949586020> ▸ The most recent winner of an event or tournament hosted previously\n<@&903745076398805082> ▸ For those who have made amazing fanart!\n\n<@&869916474448441405> ▸ For those that nitro boost the server\n\n**⌜   Leveling Roles  ⌝**\nThese roles depend on your <@1011139072355483693> bot **</rank:1215398887834124360>**! The more active you are on the server, the more XP you gain to contribute towards your server level, making you move up a role!\n\n<@&756954432364609636> ▸ The basic starter rank granted upon joining.\n<@&757759380656750652> ▸ Granted at level 5\n<@&756953620288766074> ▸ Granted at level 10 **(Grants media perms)**\n<@&756953619882049616> ▸ Granted at level 15\n<@&756953619626197032> ▸ Granted at level 20\n<@&756953618896388126> ▸ Granted at level 25 **(Grants nickname perms)**\n<@&870113342222635049> ▸ Granted at level 30\n<@&870113470488670228> ▸ Granted at level 35\n<@&870113567377092618> ▸ Granted at level 40 **(Grants exclusive chat perms)**\n<@&903161806690877460> ▸ Granted at level 45\n<@&903162332593664030> ▸ Granted at level 50\n<@&903162402038759454> ▸ Granted at level 55\n<@&1048795955824185414> ▸ Granted at level 60\n<@&1048796299316695080> ▸ Granted at level 65\n<@&1048797646594248755> ▸ Granted at level 70\n<@&1048798284505956372> ▸ Granted at level 75\n<@&1214641008894279811> ▸ Granted at level 80\n<@&1048797870251327558> ▸ Granted at level 85\n<@&1370262921757593652> ▸ Granted at level 90\n<@&1370264946398593024> ▸ Granted at level 95\n<@&1370265264956117094> ▸ Granted at level 100 (There's no way you're gonna get this one...)"
+          // const embed12 = new EmbedBuilder()
+          //   .setColor(colors.TRANSPARENT)
+          //   .setDescription(
+          //     "**⌜   Staff Roles  ⌝**\n\n<@&756723869699670016> ▸ The one and only <:oasissunglassescool:1060144825090969620>\n<@&825974296663818250> ▸ The manager of the discord\n<@&756950808427364392> ▸ The administrators of the discord\n<@&757838930770001940> ▸ The moderators of the discord who ensure that all server rules are being followed\n<@&756950810578911372> ▸ Members that are being evaluated to become apart of the staff team\n<@&1214414694526222371> ▸ Oasis's custom bot coded by <@274021702411747328>!\n<@&756723889278812221> ▸ Starfall Staff help run The Starfall Islands server! These staff members have different jobs. This includes moderation, quality assurance, server/bot development, member support, and more!\n\n**⌜   Exclusive Roles  ⌝**\n\n<@&870057943398248478> ▸ Oasis's most notable members (usually from 2019 or prior) **Do not ask for this role.**\n<@&899003484949586020> ▸ The most recent winner of an event or tournament hosted previously\n<@&903745076398805082> ▸ For those who have made amazing fanart!\n\n<@&869916474448441405> ▸ For those that nitro boost the server\n\n**⌜   Leveling Roles  ⌝**\nThese roles depend on your <@1011139072355483693> bot **</rank:1215398887834124360>**! The more active you are on the server, the more XP you gain to contribute towards your server level, making you move up a role!\n\n<@&756954432364609636> ▸ The basic starter rank granted upon joining.\n<@&757759380656750652> ▸ Granted at level 5\n<@&756953620288766074> ▸ Granted at level 10 **(Grants media perms)**\n<@&756953619882049616> ▸ Granted at level 15\n<@&756953619626197032> ▸ Granted at level 20\n<@&756953618896388126> ▸ Granted at level 25 **(Grants nickname perms)**\n<@&870113342222635049> ▸ Granted at level 30\n<@&870113470488670228> ▸ Granted at level 35\n<@&870113567377092618> ▸ Granted at level 40 **(Grants exclusive chat perms)**\n<@&903161806690877460> ▸ Granted at level 45\n<@&903162332593664030> ▸ Granted at level 50\n<@&903162402038759454> ▸ Granted at level 55\n<@&1048795955824185414> ▸ Granted at level 60\n<@&1048796299316695080> ▸ Granted at level 65\n<@&1048797646594248755> ▸ Granted at level 70\n<@&1048798284505956372> ▸ Granted at level 75\n<@&1214641008894279811> ▸ Granted at level 80\n<@&1048797870251327558> ▸ Granted at level 85\n<@&1370262921757593652> ▸ Granted at level 90\n<@&1370264946398593024> ▸ Granted at level 95\n<@&1370265264956117094> ▸ Granted at level 100 (There's no way you're gonna get this one...)"
+          //   )
+          //   .setFooter({ text: `${config.messageSettings.signature}` });
+
+          const staffEmbed = new EmbedBuilder()
+            .setColor(colors.STAFF)
+            .setTitle("Staff Roles")
+            .addFields(
+              {
+                name: "<@&756723869699670016>",
+                value: "The one and only 😎",
+                inline: false,
+              },
+              {
+                name: "<@&825974296663818250>",
+                value: "Manager of the Discord",
+                inline: false,
+              },
+              {
+                name: "<@&756950808427364392>",
+                value: "Administrators who manage server operations",
+                inline: false,
+              },
+              {
+                name: "<@&757838930770001940>",
+                value: "Moderators who ensure rules are followed",
+                inline: false,
+              },
+              {
+                name: "<@&756950810578911372>",
+                value: "Trial staff being evaluated",
+                inline: false,
+              },
+              {
+                name: "<@&1214414694526222371>",
+                value: "Custom bot coded by <@274021702411747328>",
+                inline: false,
+              },
+              {
+                name: "<@&756723889278812221>",
+                value:
+                  "Starfall Staff (QA, moderation, development, support, and more)",
+                inline: false,
+              }
             )
             .setFooter({ text: `${config.messageSettings.signature}` });
 
@@ -395,7 +438,7 @@ module.exports = {
               });
               setTimeout(() => {
                 webhook.send({
-                  embeds: [embed12],
+                  embeds: [staffEmbed],
                   allowedMentions: {
                     parse: [],
                   },

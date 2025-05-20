@@ -19,5 +19,8 @@
     "ERROR": "#FF0000",
     "SUCCESS": "#198754",
     "TRANSPARENT": "#2f3136",
-    "RULESEMBED": "#357A7B"
+    "RULESEMBED": "#357A7B",
+    "STAFF": "#FF4747",
+    "EXCLUSIVE": "#8E44AD",
+    "LEVELING": "#3498DB"
   }

@@ -440,7 +440,7 @@ module.exports = {
                 webhook.send({
                   embeds: [staffEmbed],
                   allowedMentions: {
-                    parse: [],
+                    parse: ["roles", "users"],
                   },
                 });
               }, 2000);

@@ -402,29 +402,32 @@ module.exports = {
                 inline: true,
               },
               {
-                name: "<@&756950808427364392>",
-                value: "Administrators who manage server operations",
-                inline: true,
-              },
-              {
-                name: "<@&757838930770001940>",
-                value: "Moderators who ensure rules are followed",
-                inline: true,
-              },
-              {
-                name: "<@&756950810578911372>",
-                value: "Trial staff being evaluated",
-                inline: true,
-              },
-              {
-                name: "<@&1214414694526222371>",
-                value: "Custom bot coded by <@274021702411747328>",
-                inline: true,
-              },
-              {
-                name: "<@&756723889278812221>",
+                name: " ",
                 value:
-                  "Starfall Staff (QA, moderation, development, support, and more)",
+                  "<@&756950808427364392>\n ▸ Administrators who manage server operations",
+                inline: true,
+              },
+              {
+                name: " ",
+                value:
+                  "<@&757838930770001940>\n ▸ Moderators who ensure rules are followed",
+                inline: true,
+              },
+              {
+                name: " ",
+                value: "<@&756950810578911372>\n ▸ Trial staff being evaluated",
+                inline: true,
+              },
+              {
+                name: " ",
+                value:
+                  "<@&1214414694526222371>\n ▸ Custom bot coded by <@274021702411747328>",
+                inline: true,
+              },
+              {
+                name: " ",
+                value:
+                  "<@&756723889278812221>\n ▸ Starfall Staff (QA, moderation, development, support, and more)",
                 inline: true,
               }
             )

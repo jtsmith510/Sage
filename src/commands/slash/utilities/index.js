@@ -452,7 +452,10 @@ module.exports = {
           //         });
           //       }, 4000);
           //     });
-          channel.send("hi");
+          await channel.send({
+            embeds: [staffEmbed],
+            allowedMentions: { parse: ["roles", "users"] },
+          });
         }
 
         break;

@@ -393,12 +393,12 @@ module.exports = {
             .addFields(
               {
                 name: " ",
-                value: "\n<@&756723869699670016> ▸ The one and only 😎",
+                value: "<@&756723869699670016>\n ▸ The one and only 😎",
                 inline: true,
               },
               {
-                name: "<@&825974296663818250>",
-                value: "\n<@&825974296663818250> ▸ Manager of the Discord",
+                name: " ",
+                value: "<@&825974296663818250>\n ▸ Manager of the Discord",
                 inline: true,
               },
               {

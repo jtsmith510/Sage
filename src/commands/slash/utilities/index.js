@@ -107,13 +107,13 @@ module.exports = {
       })
       .setColor(colors.RULESEMBED)
       .setDescription(`${index.rule12[0]}`);
-    const rule13 = new EmbedBuilder()
-      .setAuthor({
-        name: "Rule 13",
-        iconURL: "https://i.imgur.com/o6VPP4p.jpg",
-      })
-      .setColor(colors.RULESEMBED)
-      .setDescription(`${index.rule13[0]}`);
+    // const rule13 = new EmbedBuilder()
+    //   .setAuthor({
+    //     name: "Rule 13",
+    //     iconURL: "https://i.imgur.com/o6VPP4p.jpg",
+    //   })
+    //   .setColor(colors.RULESEMBED)
+    //   .setDescription(`${index.rule13[0]}`);
     const information = new EmbedBuilder()
       .setAuthor({
         name: "Information",
@@ -293,7 +293,7 @@ module.exports = {
               }, 3000);
               setTimeout(() => {
                 webhook.send({
-                  embeds: [rule11, rule12, rule13, information],
+                  embeds: [rule11, rule12, information],
                   allowedMentions: {
                     parse: [],
                   },

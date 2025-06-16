@@ -3,7 +3,6 @@ const { EmbedBuilder } = require("discord.js");
 const rules = [
   `Treat everyone with kindness. Bullying, harassment, and discrimination are not allowed. This includes racism, sexism, homophobia, transphobia, and the use of slurs or offensive language.`,
   `Staff members are here to help. If you disagree with a decision, reach out to a moderator privately in a respectful way. Public arguments with staff are not allowed. __Please avoid mini-modding and do not ping staff unless necessary.__`,
-  `Swearing is allowed, but it should not be directed at others or used aggressively. Keep conversations respectful for everyone.`,
   `Do **__NOT__** post or share anything sexual, graphic, or otherwise inappropriate. This includes images, videos, links, usernames, nicknames, emojis, or messages. Remember that some members may be minors or uncomfortable with certain topics.`,
   `Do not share your own or anyone else’s real-life personal information. Posting unsafe links, scams, or anything intended to collect personal data will result in an immediate ban.`,
   `Do not spam messages, emojis, or pings. Avoid pinging large groups, other creators, or the server management unless it is truly important.`,
@@ -29,7 +28,6 @@ module.exports = {
   rule10: [`${rules[9]}`],
   rule11: [`${rules[10]}`],
   rule12: [`${rules[11]}`],
-  rule13: [`${rules[12]}`],
 
   //     rules: [
   //         `

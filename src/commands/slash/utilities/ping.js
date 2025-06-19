@@ -25,18 +25,18 @@ module.exports = {
     // const member = await interaction.guild.members.fetch("274021702411747328");
     // console.log(`1st: ${member}`);
 
-    const response = await fetch(
-      `https://discord.com/api/v10/guilds/755968485854675065/members/274021702411747328`,
-      {
-        method: "GET",
-        headers: {
-          Authorization: `Bot ${process.env.TOKEN}`,
-        },
-      }
-    );
+    // const response = await fetch(
+    //   `https://discord.com/api/v10/guilds/755968485854675065/members/274021702411747328`,
+    //   {
+    //     method: "GET",
+    //     headers: {
+    //       Authorization: `Bot ${process.env.TOKEN}`,
+    //     },
+    //   }
+    // );
 
-    const data = await response.json();
-    console.log(data);
+    // const data = await response.json();
+    // console.log(data);
 
     const newMessage = `API Latency: ${bot.ws.ping}\nBot Ping: ${
       message.createdTimestamp - interaction.createdTimestamp

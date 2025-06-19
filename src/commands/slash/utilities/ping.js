@@ -22,11 +22,11 @@ module.exports = {
       fetchReply: true,
     });
 
-    const member = await interaction.guild.members.fetch("274021702411747328");
-    console.log(`1st: ${member}`);
+    // const member = await interaction.guild.members.fetch("274021702411747328");
+    // console.log(`1st: ${member}`);
 
     const response = await fetch(
-      `https://discord.com/api/v10/guilds/${interaction.guild}/members/${member}`,
+      `https://discord.com/api/v10/guilds/755968485854675065/members/274021702411747328`,
       {
         method: "GET",
         headers: {

@@ -19,13 +19,18 @@ module.exports = {
    */
   run: async (bot, interaction) => {
     const message = await interaction.deferReply({
-        fetchReply: true
+      fetchReply: true,
     });
 
-    const newMessage = `API Latency: ${bot.ws.ping}\nBot Ping: ${message.createdTimestamp - interaction.createdTimestamp}`
+    const member = interaction.guild.members.cache.get("274021702411747328");
+    console.log(member);
+
+    const newMessage = `API Latency: ${bot.ws.ping}\nBot Ping: ${
+      message.createdTimestamp - interaction.createdTimestamp
+    }`;
     await interaction.editReply({
-        content: newMessage
-    })
+      content: newMessage,
+    });
 
     // await interaction.reply({
     //   content: `Select one of the components below. ${process.env.CURRENCY}`,

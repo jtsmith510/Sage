@@ -130,7 +130,7 @@ module.exports = {
     let faq2 =
       "**Boundaries**\n\n**[⚠️]** [**OFFICIAL** Boundaries](https://oasisyt.carrd.co/)";
     let faq3 =
-      "**Controls/DPI/Sens**\n\nDPI: 800\nMC Sens: 53\nFOV: 70 (1.8) + Dynamic FOV On\nFOV: 90 (1.21) + Dynamic FOV Off\n\n**__Controls:__**\nDrop Item: C\nMove: WASD\nInventory: E\nOptifine/Lunar Zoom: X\nPerspective Mod: ALT\nSprint: CTRL\nOffhand (1.21): V\nThird Person: Side Mouse Button 2\nHotbar: 1 - 5 are defualt\n- 6: Q\n- 7: F\n- 8: R\n- 9: Side Mouse Button 1\n\n(1.7) View Bobbing: On\n(1.8 & 1.21+) View Bobbing: Off\n\n";
+      "**Controls/DPI/Sens**\n\nDPI: 800\nMC Sens: 53\nFOV: 70 (1.8) + Dynamic FOV On\nFOV: 90 (1.21) + Dynamic FOV Off\n\n**__Controls:__**\nDrop Item: C\nMove: WASD\nInventory: E\nOptifine/Lunar Zoom: X\nPerspective Mod: ALT\nSprint: CTRL\nOffhand (1.21): V\nThird Person: Z\nHotbar: 1 - 5 are defualt\n- 6: Q\n- 7: F\n- 8: R\n- 9: Side Mouse Button 1\n\n(1.7) View Bobbing: On\n(1.8 & 1.21+) View Bobbing: Off\n\n";
     let faq4 =
       "**Mouse/Keyboard**\n\nMouse: Logitech G Pro Wireless Superlight\nKeyboard: A custom made keyboard by MinuteTech\n\n";
     let faq5 =
@@ -146,11 +146,11 @@ module.exports = {
     let faq10 =
       '**What resourcepack did Oasis (Swiftblade) use in Vitalasy\'s "I Built a Bedrock Prison in Survival Minecraft" video?**\n\nShadow 16x by Aedo\n\n';
     let faq11 =
-      "**What Minecraft client does Oasis use?**\n\n__1.21__:\n- Lunar Client\n- Fabric\n\n__1.8__:\n- Lunar Client\n- Forge (for thumbnails only)\n\n__1.7__:\n- Lunar Client\n- Cheatbreaker Client\n\n";
+      "**What Minecraft client does Oasis / Swftblade use?**\n\n__1.21__:\n- Lunar Client\n- Fabric\n\n__1.8__:\n- Lunar Client\n- CheatBreaker\n\n__1.7__:\n- Lunar Client\n- Cheatbreaker Client\n\n";
     let faq12 =
-      "**What Minecraft version and gamemodes does Oasis primarily play for PvP?**\n\nOasis mostly plays pvp on 1.7/1.8, but she plays 1.21 pvp as well.\n\n1.7: Nodebuff, Boxing, and BuildUHC (Minemen Club)\n1.8: Skywars, Duels, and rarely Bedwars (Hypixel)\n1.21: Netherpot, OP, Sword, and Lifesteal UHC\n\n";
+      "**What Minecraft version and gamemodes does Oasis / Swftblade primarily play for PvP?**\n\nOasis / Swftblade mostly plays pvp on 1.7/1.8, but she plays 1.21 pvp as well.\n\n1.7: Nodebuff, Boxing, and BuildUHC (Minemen Club)\n1.8: Skywars, Duels, and rarely Bedwars (Hypixel)\n1.21: Netherpot, OP, Sword, and Lifesteal UHC\n\n";
     let faq13 =
-      "**What does Oasis use for recording/editing/thumbnails?**\n\nRecording: OBS\nEditing: Adobe Premiere Pro, Sony Vegas, After Effects, and ReplayMod for Minecraft\nThumbnails: Photoshop, and CustomNPCs Mod for Minecraft\n\n";
+      "**What does Oasis / Swftblade use for recording/editing/thumbnails?**\n\nRecording: OBS\nEditing: Adobe Premiere Pro, Sony Vegas, After Effects, and ReplayMod for Minecraft\nThumbnails: Photoshop, and CustomNPCs Mod for Minecraft\n\n";
     let faq14 =
       "**Who made the Discord server icon and banner?**\n\nCurrent server icon: N/A\n\nCurrent server banner: Sonic Team\n\nCurrent <@1004762780508880986> pfp: @kur0na._.\n\n";
     // let faq15 = "**I have a question relating to Oasis and Lifesteal...?**\n\nOasis made an FAQ for that in [this tweet](https://twitter.com/ItsOasisMC/status/1600916557651218476?t=Sqq15_E9b1WdqPSRV38qRA&s=19)\n\nNote: This mostly applies to Seasons 1 and 2. This may likely change in the future.\n\n"

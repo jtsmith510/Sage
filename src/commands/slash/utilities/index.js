@@ -126,7 +126,7 @@ module.exports = {
       .setFooter({ text: `${config.messageSettings.signature}` });
 
     let faq1 =
-      '**About**\n\nAge: 21\nPronouns: She/Her\nFavorite Colors: Pastel blue, pastel pink, sky blue, aqua, and black\nFavorite Mainstream Music Artists: Juice WRLD, The Kid LAROI, Post Malone, YENA, Sleeping With Sirens, Kellin Quinn, and Bring Me The Horizon.\nFavorite Mainstream Song: The Kid LAROI - Stay (ft. Justin Bieber)\nFavorite Games: Minecraft, Super Smash Bros. Ultimate, and **TONS of Sonic games.**\nFavorite Sonic Song(s): "Reach For The Stars" from Sonic Colors, "I\'m Here: Revisited" from Sonic Frontiers, "Undefeatable" from Sonic Frontiers, and "Knight of The Wind" from Sonic and The Black Knight\n\n';
+      '**About**\n\nAge: 21\nPronouns: She/Her\nFavorite Colors: Pastel blue, pastel pink, sky blue, aqua, and black\nFavorite Mainstream Music Artists: Juice WRLD, The Kid LAROI, Post Malone, Pierce The Veil, Sleeping With Sirens, Kellin Quinn, and Bring Me The Horizon.\nFavorite Mainstream Song: The Kid LAROI - Stay (ft. Justin Bieber)\nFavorite Games: Minecraft, Super Smash Bros. Ultimate, and **TONS of Sonic games.**\nFavorite Sonic Song(s): "Reach For The Stars" from Sonic Colors, "I\'m Here: Revisited" from Sonic Frontiers, "Undefeatable" from Sonic Frontiers, and "Knight of The Wind" from Sonic and The Black Knight\n\n';
     let faq2 =
       "**Boundaries**\n\n**[⚠️]** [**OFFICIAL** Boundaries](https://oasisyt.carrd.co/)";
     let faq3 =
@@ -140,13 +140,13 @@ module.exports = {
     let faq6 =
       "**Can I apply to be a member of Staff on the Discord server?**\n\nYou will be able to apply for a Staffing position whenever Staff Applications are open. When they are open, you will receive a notification in <#903524236524675102> where you can then fill in an application form. If Staff Applications are not open, you will not be able to apply for a staff role.\n\n";
     let faq7 =
-      "**Can I record a video with Oasis (Swiftblade)?**\n\nSadly, you cannot. Oasis (Swiftblade) has a very busy schedule and would rather be left undisturbed.\n\n";
+      "**Can I record a video with Oasis/Swiftblade?**\n\nSadly, you cannot. Oasis/Swiftblade has a very busy schedule and would rather be left undisturbed.\n\n";
     let faq8 =
-      "**Can I ping Oasis (Swiftblade) or a Creator?**\n\nNo. If you do, you will be punished. Please read the ⁠<#756718628207984760> for a thorough understanding.\n\n";
+      "**Can I ping Oasis/Swiftblade or a Creator?**\n\nNo. If you do, you will be punished. Please read the ⁠<#756718628207984760> for a thorough understanding.\n\n";
     let faq9 =
-      '**What resourcepack did Oasis (Swiftblade) use in Vitalasy\'s "I Built a Bedrock Prison in Survival Minecraft" video?**\n\nShadow 16x by Aedo\n\n';
+      '**What resourcepack did Oasis/Swiftblade use in Vitalasy\'s "I Built a Bedrock Prison in Survival Minecraft" video?**\n\nShadow 16x by Aedo\n\n';
     let faq10 =
-      "**What Minecraft client does Oasis / Swftblade use?**\n\n__1.21__:\n- Lunar Client\n- Fabric\n\n__1.8__:\n- Lunar Client\n- CheatBreaker\n\n__1.7__:\n- Lunar Client\n- Cheatbreaker Client\n\n";
+      "**What Minecraft client does Oasis / Swftblade use?**\n\n__1.21__:\n- Lunar Client\n- Fabric\n\n__1.8__:\n- Lunar Client\n- CheatBreaker\n\n__1.7__:\n- Lunar Client\n- CheatBreaker\n\n";
     let faq11 =
       "**What Minecraft version and gamemodes does Oasis / Swftblade primarily play for PvP?**\n\nOasis / Swftblade mostly plays pvp on 1.7/1.8, but she plays 1.21 pvp as well.\n\n1.7: Nodebuff, Boxing, and BuildUHC (Minemen Club)\n1.8: Skywars, Duels, and rarely Bedwars (Hypixel)\n1.21: Netherpot, OP, Sword, and Lifesteal UHC\n\n";
     let faq12 =
@@ -155,7 +155,7 @@ module.exports = {
       "**Who made the Discord server icon and banner?**\n\nCurrent server icon: N/A\n\nCurrent server banner: SEGA\n\nCurrent <@1011139072355483693> pfp: SEGA\n\n";
     // let faq15 = "**I have a question relating to Oasis and Lifesteal...?**\n\nOasis made an FAQ for that in [this tweet](https://twitter.com/ItsOasisMC/status/1600916557651218476?t=Sqq15_E9b1WdqPSRV38qRA&s=19)\n\nNote: This mostly applies to Seasons 1 and 2. This may likely change in the future.\n\n"
     let faq14 =
-      "**How does Oasis (Swiftblade) have her renders in videos? (motion blur, smooth gameplay, etc)**\n\nShe records her videos at 240FPS or 360FPS using OBS depending on the footage needed and what game is being recorded (Minecraft or a Sonic game). This is then rendered into 60FPS in Sony Vegas Pro with special settings and a LUT filter that changes the color space format. The final rendered footage is then imported into Adobe Premiere Pro (or After Effects) to be edited. The quality of the final 4K resolution video is usually professional grade with external software used (that's a secret!).\n\n";
+      "**How does Oasis/Swiftblade have her renders in videos? (motion blur, smooth gameplay, etc)**\n\nShe records her videos at 240FPS or 360FPS using OBS depending on the footage needed and what game is being recorded (Minecraft or a Sonic game). This is then rendered into 60FPS in Sony Vegas Pro with special settings and a LUT filter that changes the color space format. The final rendered footage is then imported into Adobe Premiere Pro (or After Effects) to be edited. The quality of the final 4K resolution video is usually professional grade with external software used (that's a secret!).\n\n";
     let faq15 =
       "**Why is Oasis also known as Swiftblade?**\n\nSwiftblade is the name of her OC (original character) and the name of her 2nd YouTube channel.";
 

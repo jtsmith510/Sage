@@ -135,28 +135,28 @@ module.exports = {
       "**Mouse/Keyboard**\n\nMouse: Logitech G Pro Wireless Superlight\nKeyboard: A custom made keyboard by MinuteTech\n\n";
     let faq5 =
       "**How do I apply for <@&756952143776186460> or <@&896080274134286337> role?**\n\nRun </info:1220542774705655829> in <#903523421042929674> to see info\n\n";
+    // let faq6 =
+    //   "**When is the next Discord/Minecraft event or competition?**\n\nWe currently do not have a fixed events schedule, so please just keep an eye out in ⁠<#903529298969907221> for regular updates on the next Community event.\n\n";
     let faq6 =
-      "**When is the next Discord/Minecraft event or competition?**\n\nWe currently do not have a fixed events schedule, so please just keep an eye out in ⁠<#903529298969907221> for regular updates on the next Community event.\n\n";
-    let faq7 =
       "**Can I apply to be a member of Staff on the Discord server?**\n\nYou will be able to apply for a Staffing position whenever Staff Applications are open. When they are open, you will receive a notification in <#903524236524675102> where you can then fill in an application form. If Staff Applications are not open, you will not be able to apply for a staff role.\n\n";
-    let faq8 =
+    let faq7 =
       "**Can I record a video with Oasis (Swiftblade)?**\n\nSadly, you cannot. Oasis (Swiftblade) has a very busy schedule and would rather be left undisturbed.\n\n";
-    let faq9 =
+    let faq8 =
       "**Can I ping Oasis (Swiftblade) or a Creator?**\n\nNo. If you do, you will be punished. Please read the ⁠<#756718628207984760> for a thorough understanding.\n\n";
-    let faq10 =
+    let faq9 =
       '**What resourcepack did Oasis (Swiftblade) use in Vitalasy\'s "I Built a Bedrock Prison in Survival Minecraft" video?**\n\nShadow 16x by Aedo\n\n';
-    let faq11 =
+    let faq10 =
       "**What Minecraft client does Oasis / Swftblade use?**\n\n__1.21__:\n- Lunar Client\n- Fabric\n\n__1.8__:\n- Lunar Client\n- CheatBreaker\n\n__1.7__:\n- Lunar Client\n- Cheatbreaker Client\n\n";
-    let faq12 =
+    let faq11 =
       "**What Minecraft version and gamemodes does Oasis / Swftblade primarily play for PvP?**\n\nOasis / Swftblade mostly plays pvp on 1.7/1.8, but she plays 1.21 pvp as well.\n\n1.7: Nodebuff, Boxing, and BuildUHC (Minemen Club)\n1.8: Skywars, Duels, and rarely Bedwars (Hypixel)\n1.21: Netherpot, OP, Sword, and Lifesteal UHC\n\n";
-    let faq13 =
+    let faq12 =
       "**What does Oasis / Swftblade use for recording/editing/thumbnails?**\n\nRecording: OBS\nEditing: Adobe Premiere Pro, Sony Vegas, After Effects, and ReplayMod for Minecraft\nThumbnails: Photoshop, and CustomNPCs Mod for Minecraft\n\n";
-    let faq14 =
+    let faq13 =
       "**Who made the Discord server icon and banner?**\n\nCurrent server icon: N/A\n\nCurrent server banner: SEGA\n\nCurrent <@1011139072355483693> pfp: SEGA\n\n";
     // let faq15 = "**I have a question relating to Oasis and Lifesteal...?**\n\nOasis made an FAQ for that in [this tweet](https://twitter.com/ItsOasisMC/status/1600916557651218476?t=Sqq15_E9b1WdqPSRV38qRA&s=19)\n\nNote: This mostly applies to Seasons 1 and 2. This may likely change in the future.\n\n"
-    let faq15 =
+    let faq14 =
       "**How does Oasis (Swiftblade) have her renders in videos? (motion blur, smooth gameplay, etc)**\n\nShe records her videos at 240FPS or 360FPS using OBS depending on the footage needed and what game is being recorded (Minecraft or a Sonic game). This is then rendered into 60FPS in Sony Vegas Pro with special settings and a LUT filter that changes the color space format. The final rendered footage is then imported into Adobe Premiere Pro (or After Effects) to be edited. The quality of the final 4K resolution video is usually professional grade with external software used (that's a secret!).\n\n";
-    let faq16 =
+    let faq15 =
       "**Why is Oasis also known as Swiftblade?**\n\nSwiftblade is the name of her OC (original character) and the name of her 2nd YouTube channel.";
 
     const faq1embed = new EmbedBuilder()
@@ -234,10 +234,10 @@ module.exports = {
       .setColor(colors.RULESEMBED)
       .setDescription(faq15);
 
-    const faq16embed = new EmbedBuilder()
-      .setAuthor({ name: "FAQ 16", iconURL: `${process.env.FAQ16Icon}` })
-      .setColor(colors.RULESEMBED)
-      .setDescription(faq16);
+    // const faq16embed = new EmbedBuilder()
+    //   .setAuthor({ name: "FAQ 16", iconURL: `${process.env.FAQ16Icon}` })
+    //   .setColor(colors.RULESEMBED)
+    //   .setDescription(faq16);
 
     // const faq17embed = new EmbedBuilder()
     // .setAuthor({ name: "FAQ 17", iconURL: `${process.env.FAQ17Icon}`})
@@ -345,7 +345,7 @@ module.exports = {
                     faq13embed,
                     faq14embed,
                     faq15embed,
-                    faq16embed,
+                    // faq16embed,
                     //faq17embed,
                   ],
                 });

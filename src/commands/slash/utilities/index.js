@@ -152,7 +152,7 @@ module.exports = {
     let faq13 =
       "**What does Oasis / Swftblade use for recording/editing/thumbnails?**\n\nRecording: OBS\nEditing: Adobe Premiere Pro, Sony Vegas, After Effects, and ReplayMod for Minecraft\nThumbnails: Photoshop, and CustomNPCs Mod for Minecraft\n\n";
     let faq14 =
-      "**Who made the Discord server icon and banner?**\n\nCurrent server icon: N/A\n\nCurrent server banner: Sonic Team\n\nCurrent <@1004762780508880986> pfp: @kur0na._.\n\n";
+      "**Who made the Discord server icon and banner?**\n\nCurrent server icon: N/A\n\nCurrent server banner: SEGA\n\nCurrent <@1011139072355483693> pfp: SEGA\n\n";
     // let faq15 = "**I have a question relating to Oasis and Lifesteal...?**\n\nOasis made an FAQ for that in [this tweet](https://twitter.com/ItsOasisMC/status/1600916557651218476?t=Sqq15_E9b1WdqPSRV38qRA&s=19)\n\nNote: This mostly applies to Seasons 1 and 2. This may likely change in the future.\n\n"
     let faq15 =
       "**How does Oasis (Swiftblade) have her renders in videos? (motion blur, smooth gameplay, etc)**\n\nShe records her videos at 240FPS or 360FPS using OBS depending on the footage needed and what game is being recorded (Minecraft or a Sonic game). This is then rendered into 60FPS in Sony Vegas Pro with special settings and a LUT filter that changes the color space format. The final rendered footage is then imported into Adobe Premiere Pro (or After Effects) to be edited. The quality of the final 4K resolution video is usually professional grade with external software used (that's a secret!).\n\n";

@@ -27,7 +27,7 @@ module.exports = {
     bot.user.setActivity({
       type: ActivityType.Custom,
       name: "custom",
-      state: `Watching over ${new Intl.NumberFormat().format(
+      state: `👀 Watching over ${new Intl.NumberFormat().format(
         guild.memberCount
       )} users`,
     });
@@ -35,7 +35,7 @@ module.exports = {
       bot.user.setActivity({
         type: ActivityType.Custom,
         name: "custom",
-        state: `Watching over ${new Intl.NumberFormat().format(
+        state: `👀 Watching over ${new Intl.NumberFormat().format(
           guild.memberCount
         )} users`,
       });

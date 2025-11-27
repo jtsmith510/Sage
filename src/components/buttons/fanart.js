@@ -17,7 +17,7 @@ module.exports = {
     await interaction.deferReply({ ephemeral: true });
 
     const attachment = new AttachmentBuilder(
-      "./src/images/character-sheet.jpg"
+      "./src/images/character-sheet.png"
     );
 
     const embed = new EmbedBuilder()
@@ -29,7 +29,7 @@ module.exports = {
       .setDescription(
         "If you have any fanart that is original post it here! Be creative! Oasis's (Swiftblade's) character sheet is attached below if needed. If you have any questions regarding fanart boundaries, visit the link below.\n\n:link: **[Click Here](https://oasisyt.carrd.co/#ocsheet)**"
       )
-      .setImage(`attachment://character-sheet.jpg`);
+      .setImage(`attachment://character-sheet.png`);
 
     sendResponse(interaction, ``, [embed], [attachment], [], true);
   },
